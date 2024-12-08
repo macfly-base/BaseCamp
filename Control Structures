@@ -9,7 +9,7 @@ contract ControlStructures {
     error AtLunch();
 
     // Constants for time ranges to save gas
-    uint256 private constant MORNING_START = 800;
+    uint256 private constant MORNING_START = 700;
     uint256 private constant LUNCH_START = 1200;
     uint256 private constant LUNCH_END = 1299;
     uint256 private constant AFTERNOON_END = 1799;
